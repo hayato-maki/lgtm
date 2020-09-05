@@ -7,5 +7,5 @@ def cli(keyword, message):
     lgtm(keyword, message)
     click.echo('lgtm')
 
-def lgtm():
+def lgtm(keyword, message):
     pass
